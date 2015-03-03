@@ -28,7 +28,7 @@ void draw() {
   clear();
   background(255,255,0);
     for (int i=0; i<=10; i++) {
-      stroke(0,0,0,30);
+      stroke(0,0,0,25);
       strokeWeight(1);
       line(0,i*50+25-ypos/3.5,width,i*50+25-ypos/3.5);
       line(i*50+25-xpos/3.5,0,i*50+25-xpos/3.5,height);
